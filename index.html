@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Data Exercises</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+  <h3>Forms</h3>
+
+  <form>
+
+  <fieldset>
+  <legend>Personal Data</legend>
+    <label for="fname">First name : </label>
+    <input type="search">
+    
+    <label for="lname">Last name : </label>
+    <input type="search">
+
+    <label for="fname">Street : </label>
+    <input type="search">
+    
+    <label for="lname">Zipcode : </label>
+    <input type="search">
+
+    <label for="fname">City: </label>
+    <input type="search">
+    
+    <label for="lname">Phone : </label>
+    <input type="search">
+
+    <label for="fname">Email : </label>
+    <input type="search">
+    
+    <label for="lname">Comments : </label>
+    <textarea name="message" placeholder="Tell us more about important colors,etc."></textarea>
+  </fieldset>
+
+   <fieldset>
+    
+    <legend>Products</legend>
+
+      <div class="radiobut">
+        <label for="web">Web Design:</label>
+        <input type="radio" name="webdesign" value="Individual" id="webdesign-ind">
+        <label for="Individual">Individual</label>
+        <input type="radio" name="webdesign" value="Template" id="webdesign-temp">
+        <label for="webdesign-temp">Template</label>
+      </div>
+
+      <div class="web-dev">
+        <div class="checkbox">
+          <input type="checkbox" name="web-dev[]" value="html" id="web-dev-html">
+          <label for="web-dev-html">HTML & CSS</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="web-dev[]" value="css" id="web-dev-css">
+          <label for="web-dev-css">JavaScript</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="web-dev[]" value="js" id="web-dev-js">
+          <label for="web-dev-js">MongoDB</label>
+        </div>
+        <br>
+
+  <label for="Project">Project start : </label>
+  <input type="date">
+
+  <label for="fname">Project end : </label>
+  <input type="date">
+
+
+  <p>Category :</p>
+  <select>
+  <option value="Personal">Personal</option>
+  <option value="Opera">Opera</option>
+  <option value="Chrome">Chrome</option>
+  </select>
+
+  <input type="button" id="button" onclick="alert" value="Order our service">
+</fieldset>
+
+  </form>
+  
+</body>
+</html>
